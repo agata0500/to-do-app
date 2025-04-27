@@ -1,0 +1,18 @@
+# Query: agata
+# ContextLines: 1
+
+3 results - 2 files
+
+README.md:
+   2  
+   3: This is a basic to-do list app created by **Agata Zareba** as part of a web development assignment. It allows users to add, complete, and delete tasks with a clean and easy-to-use interface.
+   4  
+
+  22     ```bash
+  23:    git clone https://github.com/agata0500/to-do-app.git
+  24  
+
+src/App.vue:
+  74        <List :todos="todos.list" @deleteTodo="deleteTodo" @doneTodo="doneTodo" />
+  75:       <div class="mt-8 text-center text-gray-500 text-sm">Created by Agata Zareba</div>
+  76      </div>
